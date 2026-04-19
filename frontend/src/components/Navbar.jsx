@@ -16,7 +16,7 @@ export default function Navbar() {
       <div className="navbar-inner">
         <Link to="/" className="navbar-brand">
           <span className="brand-icon">⚡</span>
-          <span className="brand-text">DocuGen</span>
+          <span className="brand-text">DocGen</span>
         </Link>
         <div className="navbar-actions">
           {user ? (

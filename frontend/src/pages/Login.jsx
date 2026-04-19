@@ -30,7 +30,7 @@ export default function Login() {
       <div className="auth-container">
         <div className="auth-header">
           <h1>Welcome back</h1>
-          <p>Sign in to your DocuGen account</p>
+          <p>Sign in to your DocGen account</p>
         </div>
         <form onSubmit={handleSubmit} className="auth-form">
           {error && <div className="error-msg">{error}</div>}
